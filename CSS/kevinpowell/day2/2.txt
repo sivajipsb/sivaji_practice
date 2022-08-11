@@ -1,0 +1,31 @@
+https://courses.kevinpowell.co/view/courses/conquering-responsive-layouts/349964-day-2-getting-familiar-with-relative-units
+
+Takeaway:
+		For font-sizes, always use "rem" to avoid compounding problem
+		Use "em" for properties other than fontSize like margin, padding, width etc...
+		rem are useful when we are trying to use media queries
+2
+
+Just some example CSS to show how rem will work, notice the root font-size is set using px via html tag
+
+html, body { font-size: 16px; }
+div { font-size: 18px; }
+p { font-size: 1rem; }
+And the corresponding HTML:
+
+<div>
+  <p>Lorem Ipsum</p>
+</div>
+Because the <p> tag is set to 1rem it ignores the parent div’s font-size of 18px. 
+however, if we instead set the font-size to 1em, the paragraph would inherit the 18px font-size 
+of its parent element. I know this example isn’t particularly useful, but hopefully it can help
+ illustrate the difference between em and rem.
+
+ example-2
+ 
+
+In em relative unit the font size is measured on the base of nearest parent font size but if the font size is not defined for any of parent elements then by default font size will be defined according to the root html element
+
+The rem relative unit is calculated only by root html element, thus, the font size of the parent element does not affect it
+
+example-3

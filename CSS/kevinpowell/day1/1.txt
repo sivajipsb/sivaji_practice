@@ -1,3 +1,6 @@
+https://courses.kevinpowell.co/view/courses/conquering-responsive-layouts/233004-day-1-using-percentages-avoiding-heights
+
+
 so basically the elements have their own responsiveness.so first hack is dont give height and width to the components .
 if suppose you want to give height and width if it is compuslory use percentage for it
 the percentage for child div is always to parent measurement means .suppose if a parent is given 80% then child given 50% means it is 40% of its parent
