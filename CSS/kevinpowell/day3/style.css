@@ -33,5 +33,16 @@ body {
 }
 
 .intro-content {
-  width: 50%;
+  /* width: 50%; */
+  max-width:750px;
+  /* background:white */
+  /* color: white; */
+  /* background: #23424a; */
+}
+.next-content{
+  color:black;
+  background: white;
+  max-width: 750px;
+  margin: 0 auto;
+
 }
